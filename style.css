@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: 'Amiri', serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Aref Ruqaa', serif;
+    text-align: center;
+    color: gold;
+}
+
+.container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1500835595547-94ad93786d9f') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-btn {
+    background: gold;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.sub-text {
+    opacity: 0.7;
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,textarea {
+    padding: 10px;
+    background: #111;
+    border: 1px solid #333;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
